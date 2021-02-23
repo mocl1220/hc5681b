@@ -17,5 +17,5 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/kenzok8/openwrt-packages.git package/kenzo
 git clone https://github.com/kenzok8/small package/small
-git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
+#git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
 
