@@ -19,4 +19,4 @@ rm -Rf tools/upx && svn co https://github.com/coolsnowwolf/lede/trunk/tools/upx 
 rm -Rf tools/ucl && svn co https://github.com/coolsnowwolf/lede/trunk/tools/ucl tools/ucl
 sed -i 's?zstd$?zstd ucl upx\n$(curdir)/upx/compile := $(curdir)/ucl/compile?g' tools/Makefile
 sed -i 's,$(STAGING_DIR_HOST)/bin/upx,upx,' package/kenzo/*/Makefile
-sed -i 's,$(STAGING_DIR_HOST)/bin/upx,upx,' package/small/*/Makefile
+#sed -i 's,$(STAGING_DIR_HOST)/bin/upx,upx,' package/small/*/Makefile
